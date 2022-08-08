@@ -1,0 +1,191 @@
+body {
+    font-family: 'Merriweather', serif;
+
+}
+
+/* Navigation */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-nav {
+    font-size: 1rem;
+}
+
+.dropdown-menu {
+    font-size: 0.8rem;
+    background-color: rgb(226, 226, 226);
+}
+form.d-flex {
+    width: 50%;
+}
+
+input[type="search"] {
+    padding: 1%;
+    width: 80%;
+    border-right: none;
+    border-color: darkgray;
+    border-width: 1px;
+}
+
+.navbar-brand {
+    margin-right: 5%;
+}
+input[type="search"]:focus {
+    outline: none;
+}
+
+button.btn {
+    border-style: inset;
+    border-left: 0;
+    border-width: 1px;
+    border-color: darkgray;
+    border-radius: 0;
+    background-color: white;
+}
+
+.support{
+    
+    font-size: 1rem;
+    color: gray;
+}
+
+.navbar-toggler.search{
+    margin-left: 3%;
+    border: none;
+}
+
+.navbar-toggler.burger {
+    border: none;
+    float: right;
+}
+
+/* Benefits */
+
+#Benefits {
+    padding: 5% 10%;
+}
+
+.b-item {
+    padding: 2% 3%;
+}
+
+.b-item p {
+    margin-top: 2rem;
+}
+
+.b-icon {
+    font-size: 4rem;
+    color: rgb(10, 114, 114);
+}
+
+.b-icon:hover {
+    color: aqua;
+}
+
+.products {
+    padding: 5% 15%;
+    
+}
+
+.crd-img {
+    width: 60%;
+}
+
+.card {
+    border: none;
+    background-color: rgb(251, 251, 251);
+    line-height: 4;
+    border-radius: 0;
+    padding: 10% 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card.opac:hover {
+    opacity: 0.7;
+}
+
+.card-text {
+    font-size: 0.8rem;
+    padding: 5%;
+}
+
+.custom-hr {
+    margin: auto;
+    width: 5%;
+    border: dotted;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black;
+}
+
+/* feature */
+
+.feature {
+    padding: 5% 10%;
+}
+
+#feature-heading {
+    margin-bottom: 4%;
+}
+
+
+/* footer */
+
+.footer-info {
+    padding: 0 10%;
+    font-size: 0.8rem;
+}
+
+h5 {
+    padding-bottom: 10%;
+    font-size: 1.5rem;
+}
+
+p a {
+    text-align: center;
+}
+
+/* support */
+
+
+.contact {
+    background-image: url("contact.jpg");
+    padding: 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+}
+
+.small-font {
+    font-size: 0.8rem;
+}
+
+.links {
+    padding: 8% 0;
+}
+
+.follow {
+    font-size: 4rem;
+}
+
+.follow a {
+    color: black;
+}
+
+.follow a:hover {
+    color: rgb(204, 204, 204);
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+}

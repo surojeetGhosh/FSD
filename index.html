@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="refresh" content="3"> -->
+    <title>EzTech</title>
+
+    <!-- bootStrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu&display=swap" rel="stylesheet">
+  
+    <!-- Font awesome -->
+
+    <script src="https://kit.fontawesome.com/8100311596.js" crossorigin="anonymous"></script>
+  
+  </head>
+
+
+
+  <body>
+    
+    <!-- navigation -->
+    <nav class="navbar navbar-light bg-light mt-2 navbar-expand-lg border border-5 border-top-0 border-left-0 border-right-0  border-bottom-dark" id="home">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="images/logo.png" alt="" width="70%">
+        </a>
+        <button class="navbar-toggler search" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-magnifying-glass p-1"></i>
+        </button>
+        <div class="collapse navbar-collapse pt-4" id="navbarSupportedContent1">
+
+          <div class="container">
+            <form class="d-flex p-lg-2  w-100">
+              <input type="search" placeholder="What are you looking for?" aria-label="Search">
+              <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <ul class="navbar-nav">
+              <li><hr class="dropdown-divider"></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Business Solutions
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><h5 class="dropdown-item">Shop by Use</h5></li>
+                  <li><a class="dropdown-item" href="#">Business Laptops</a></li>
+                  <li><a class="dropdown-item" href="#">Business Desktops</a></li>
+                  <li><a class="dropdown-item" href="#">Business Accessories</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><h5 class="dropdown-item" href="#">Shop by Series</h5></li>
+                  <li><a class="dropdown-item" href="#">Laptop / Mobile Workstation</a></li>
+                  <li><a class="dropdown-item" href="#">Desktop / AiO / Workstation</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Care Pack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: red;" href="#">Sales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Tech Takes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="contact.html">Support</a>
+              </li>
+              
+            </ul>
+            <div class="float-lg-end text-lg-center">
+              <span class="support">Sales: 1800-108-4747</span><br>
+              <i class="fa-solid fa-phone p-2"></i>
+              <i class="fa-solid fa-location-dot p-2"></i>
+              <i class="fa-solid fa-user p-2"></i>
+            </div>
+            
+        </div>
+   
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section id="products">
+      <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/car1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/car2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/car4.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    
+
+    <!-- features -->
+
+    <section id="Benefits">
+      <div class="container row text-center">
+        <div class="b-item col-lg col-md-4">
+          <img src="images/core.webp" alt="">
+          <p>12th Gen Intel<sup>R</sup> Core<sup>TM</sup> Processors</p>
+        </div>
+        <div class="b-item col-lg col-md-4">
+          <i class="b-icon fa-solid fa-award"></i>
+          <p>Original Products</p>
+        </div>
+        <div class="b-item col-lg col-md-4">
+          <i class="b-icon fa-solid fa-truck"></i>
+          <p>Fast and Free Delivery</p>
+        </div>  
+        <div class="b-item col-lg col-md-4">
+          <i class="b-icon fa-brands fa-creative-commons-zero"></i>
+          <p>0% Interest-free EMI</p>
+        </div>
+        <div class="b-item col-lg col-md-4">
+          <i class="b-icon fa-solid fa-headset"></i>
+          <p>Here to Help</p>
+        </div>
+        <div class="b-item col-lg col-md-4">
+          <i class="b-icon fa-solid fa-arrows-rotate"></i>
+          <p>Laptop Exchange</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="custom-hr">
+    
+    <!-- Products varities -->
+
+    <div class="row text-center products" id="pricing">
+      <div class="col-lg-4 col-md-6 pt-5">
+        <div class="card opac h-100">
+          <div class="card-body">
+            <h5 class="card-title">Desktop</h5>
+            <img src="images/desktop.webp" class="card-img-top crd-img" alt="...">
+            <p class="card-footer">From ₹ 31,649</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 pt-5">
+        <div class="card opac h-100">
+          <div class="card-body">
+            <h5 class="card-title">Laptops</h5>
+            <img src="images/laptops.webp" class="card-img-top crd-img" alt="...">
+            <p class="card-footer">From ₹ 21,349</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 pt-5">
+        <div class="card opac h-100">
+          <div class="card-body">
+            <h5 class="card-title">Printers</h5>
+            <img src="images/printer.webp" class="card-img-top crd-img" alt="...">
+            <p class="card-footer">From ₹ 2,769</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 pt-5">
+        <div class="card opac h-100">
+          <div class="card-body">
+            <h5 class="card-title">Monitors</h5>
+            <img src="images/monitor.webp" class="card-img-top crd-img" alt="...">
+            <p class="card-footer">From ₹ 7,413</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 pt-5">
+        <div class="card opac h-100">
+          <div class="card-body">
+            <h5 class="card-title">Ink, Toner and Papers</h5>
+            <img src="images/ink-toner.webp" class="card-img-top crd-img" alt="...">
+            <p class="card-footer">From ₹ 1,413</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="custom-hr">
+
+    <!-- Featured products -->
+
+    <section class="feature" id="featured">
+      <h2 id="feature-heading">Featured Product</h2>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              LAPTOPS
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-lg-6 pt-3">
+                  <div class="card h-100">
+                    <img src="images/prod1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-lg-start text-center">HP Pavilion Plus Laptop 14-eh0021TU</h5>
+                      <p class="card-text text-lg-start text-center">Stay both productive and entertained from anywhere</p>
+  
+                      <p class="card-footer p-5">
+                        ₹78,999 (incl. of all taxes)
+                        Includes GST ₹12,051 <br>
+                        You Save: ₹9,122 (10%) <br>
+                        Get 5% cash back* with select credit cards <br>
+                        <span style="color: green; font-size: smaller;">In Stock</span> <br>
+                        <a class="btn btn-primary btn-lg d-block" href="#" role="button">Shop Now</a>
+                      </p>
+                        
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 pt-3">
+                  <div class="card h-100">
+                    <img src="images/prod2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-lg-start text-center">HP Pavilion Laptop 15-eg2036TU</h5>
+                      <p class="card-text text-lg-start text-center">Stay both productive and entertained from anywhere
+                      </p>
+                      <p class="card-footer p-5">
+                        ₹74,999 (incl. of all taxes) <br>
+                        Includes GST ₹11,441 <br>
+                        You Save: ₹8,553 (10%) <br>
+                        Get 5% cash back* with select credit cards <br>
+                        <span style="color: green; font-size: smaller;">In Stock</span> <br>
+                        <a class="btn btn-primary btn-lg d-block" href="#" role="button">Shop Now</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed border-bottom" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              DESKTOPS
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-lg-6 pt-3">
+                  <div class="card h-100">
+                    <img src="images/desk1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-lg-start text-center">HP ENVY All-in-One 34-c0679in PC</h5>
+                      <p class="card-text text-lg-start text-center">Designed by Creators for Creators</p>
+                      <p class="card-footer p-5">
+                        ₹175,999 (incl. of all taxes) <br>
+                        Includes GST ₹26,847 <br>
+                        You Save: ₹24,511 (12%) <br>
+                        <span style="color: green; font-size: smaller;">In Stock</span> <br>
+                        <a class="btn btn-primary btn-lg d-block" href="#" role="button">Shop Now</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 pt-3">
+                  <div class="card h-100">
+                    <img src="images/desk2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-lg-start text-center">HP ENVY All-in-One 34-c0457in PC</h5>
+                      <p class="card-text text-lg-start text-center">Designed by Creators for Creators</p>
+                      <p class="card-footer p-5">
+                        ₹199,999 (incl. of all taxes) <br>
+                        Includes GST ₹30,508 <br>
+                        You Save: ₹27,853 (12%) <br>
+                        <span style="color: green; font-size: smaller;">In Stock</span> <br>
+                        <a class="btn btn-primary btn-lg d-block" href="#" role="button">Shop Now</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              MONITORS
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-lg-6 pt-3">
+                  <div class="card h-100">
+                    <img src="images/mon1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-lg-start text-center">HP M24fh FHD USB-C Monitor</h5>
+                      <p class="card-text text-lg-start text-center">The highest definition of comfort and design.</p>
+                      <p class="card-footer p-5">
+                        ₹18,259 (incl. of all taxes) <br>
+                        Includes GST ₹2,785 <br>
+                        You Save: ₹4,141 (18%) <br>
+                        <span style="color: green; font-size: smaller;">In Stock</span> <br>
+                        <a class="btn btn-primary btn-lg d-block" href="#" role="button">Shop Now</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 pt-3">
+                  <div class="card h-100">
+                    <img src="images/mon2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-lg-start text-center">HP M27 Webcam Monitor</h5>
+                      <p class="card-text text-lg-start text-center">Work. School. Fun. It all looks good from here.</p>
+                      <p class="card-footer p-5">
+                        ₹28,999 (incl. of all taxes) <br>
+                        Includes GST ₹4,424 <br>
+                        You Save: ₹6,701 (18%) <br>
+                        <span style="color: green; font-size: smaller;">In Stock</span> <br>
+                        <a class="btn btn-primary btn-lg d-block" href="#" role="button">Shop Now</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              PRINTERS
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-lg-6 pt-3">
+                  <div class="card h-100">
+                    <img src="images/prin1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-lg-start text-center">HP DeskJet Ink Advantage 2776 All-in-One Printer</h5>
+                      <p class="card-text text-lg-start text-center">All the essentials – count on easy setup with HP Smart app,[2] and get worry-free wireless.[1]</p>
+                      <p class="card-footer p-5">
+                        ₹7,299 (incl. of all taxes) <br>
+                        Includes GST ₹1,113 <br>
+                        You Save: ₹1,151 (13%) <br>
+                        <span style="color: green; font-size: smaller;">In Stock</span> <br>
+                        <a class="btn btn-primary btn-lg d-block" href="#" role="button">Shop Now</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 pt-3">
+                  <div class="card h-100">
+                    <img src="images/prin2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-lg-start text-center">HP Ink Tank Wireless 419</h5>
+                      <p class="card-text text-lg-start text-center">Wireless,[6] high-volume printing for a low cost-per-page[1] – up to 8,000 color or 6,000 black.[2]</p>
+                      <p class="card-footer p-5">
+                        ₹14,999 (incl. of all taxes) <br>
+                        Includes GST ₹2,288 <br>
+                        You Save: ₹2,228 (12%) <br>
+                        Up to ₹1000* Cashback on selected banks* <br>
+                        <span style="color: green; font-size: smaller;">In Stock</span> <br>
+                        <a class="btn btn-primary btn-lg d-block" href="#" role="button">Shop Now</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              ACCESSORIES
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-lg-6 pt-3">
+                  <div class="card h-100">
+                    <img src="images/acc1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-lg-start text-center">Headphone with Microphone</h5>
+                      <p class="card-footer p-5">
+                        ₹629 (incl. of all taxes) <br>
+                        Includes GST ₹96 <br>
+                        You Save: ₹370 (37%) <br>
+                        <span style="color: green; font-size: smaller;">In Stock</span> <br>
+                        <a class="btn btn-primary btn-lg d-block" href="#" role="button">Shop Now</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 pt-3">
+                  <div class="card h-100">
+                    <img src="images/acc2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-lg-start text-center">HP C2500 Desktop</h5>
+                      <p class="card-footer p-5">
+                        ₹959 (incl. of all taxes) <br>
+                        Includes GST ₹146 <br>
+                        You Save: ₹40 (4%) <br>
+                        <span style="color: green; font-size: smaller;">In Stock</span> <br>
+                        <a class="btn btn-primary btn-lg d-block" href="#" role="button">Shop Now</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <div class="bg-dark pb-4">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom py-5 mb-3">
+          <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#products" class="nav-link px-2 text-muted">Products</a></li>
+          <li class="nav-item"><a href="#Benefits" class="nav-link px-2 text-muted">Features</a></li>
+          <li class="nav-item"><a href="#pricing" class="nav-link px-2 text-muted">Pricing</a></li>
+          <li class="nav-item"><a href="#featured" class="nav-link px-2 text-muted">Featured Products</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2021 Company, Inc</p>
+        <div class="footer-info">
+          <p class="text-center text-muted">Ultrabook, Celeron, Celeron Inside, Core Inside, Intel, Intel Logo, Intel Arc graphics, Intel Atom, Intel Atom Inside, Intel Core, Intel Inside, Intel Inside Logo, Intel vPro, Intel Evo, Pentium, Pentium Inside, vPro Inside, Xeon, Xeon Inside, Intel Agilex, Arria, Cyclone, Movidius, eASIC, Ethernet, Iris, Killer, MAX, Select Solutions, Si Photonics, Stratix, Tofino, and Intel Optane are trademarks of Intel Corporation or its subsidiaries.</p>
+          <p class="text-center text-muted">Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers and/or software to take full advantage of Windows functionality. See <a href="https://www.microsoft.com" rel="external nofollow" tabindex="0">www.microsoft.com</a></p>
+          <p class="text-center text-muted">The following applies to HP systems with Intel Skylake or next-generation silicon chip-based system shipping with Windows 7, Windows 8, Windows 8.1 or Windows 10 Pro systems downgraded to Windows 7 Professional, Windows 8 Pro, or Windows 8.1: This version of Windows running with the processor or chipsets used in this system has limited support from Microsoft. For more information about Microsoft’s support, please see Microsoft's Support Lifecycle FAQ at <a href="https://support.microsoft.com/lifecycle" rel="external nofollow" tabindex="0">www.support.microsoft.com/lifecycle</a></p>
+          <p class="text-center text-muted"><strong>Please note</strong>: The product colour and look &amp; feel may vary from the visual representation on the Website. While all efforts are made to check pricing, product specifications and other errors, inadvertent errors do occur from time to time and HP reserves the right to decline orders arising from such errors.&nbsp;For pen drives, please reach out to respective manufacturers for any service queries.</p>
+
+        </div>
+
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-li" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+        
+      </footer>
+    </div>
+    <!-- Scripts -->
+    <script src="js/help.js"></script>
+
+    <!-- JQuery -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- BootStrap -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
